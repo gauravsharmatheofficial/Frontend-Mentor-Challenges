@@ -3,11 +3,10 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
-  overflow-y: hidden;
 }
 .main-section {
   background-color: hsl(204, 43%, 93%);
-  height: 95vh;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -137,11 +136,13 @@ div {
   * {
     overflow-y: auto;
   }
-
+  .main-section {
+    padding: 80px 30px;
+    height: auto;
+  }
   .main-container {
     display: grid;
     grid-template-columns: 1fr;
-    width: 400px;
 
     position: static;
     top: 0;
