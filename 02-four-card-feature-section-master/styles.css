@@ -83,10 +83,6 @@ h2 {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-.card-push {
-  transform: translateY(50%);
-}
-
 /* ************************************************* Footer ******************************************************* */
 .attribution {
   text-align: center;
@@ -98,12 +94,15 @@ h2 {
   color: red;
 }
 
-
-
-/*  ****************************************************  media query  ********************************************** */ 
 @media (max-width: 1139px) {
   footer {
     padding-top: 150px;
+  }
+}
+
+@media (min-width: 771px) {
+  .card-push {
+    transform: translateY(50%);
   }
 }
 
