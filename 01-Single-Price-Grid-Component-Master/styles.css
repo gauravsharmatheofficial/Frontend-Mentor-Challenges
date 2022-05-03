@@ -29,7 +29,7 @@ h3 {
 }
 
 .community h2 {
-  color: rgb(202, 236, 51);
+  color: rgba(43, 179, 177, 1)  ;
   font-weight: 700;
   padding-bottom: 20px;
 }
@@ -41,7 +41,7 @@ h3 {
 }
 
 .community h3 {
-  color: rgba(43, 179, 177, 1);
+  color:  rgb(202, 236, 51);
   padding-bottom: 20px;
 }
 
