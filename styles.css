@@ -94,6 +94,29 @@ footer {
   text-align: center;
   padding-top: 50px;
 }
-footer a {
+footer .name {
   color: red;
+
+  padding-right: 50px;
+}
+
+.social-icon {
+  padding: 10px 5px;
+}
+
+.social-icon:hover {
+  color: red;
+}
+
+/* Media Query  */
+
+@media (max-width: 400px) {
+  .card {
+    width: 340px;
+    margin: 20px 5px;
+  }
+
+  .ss {
+    width: 340px;
+  }
 }
