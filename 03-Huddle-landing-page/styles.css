@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo img {
+  width: 170px;
+  margin: 45px auto 20px 10%;
+}
+
+.text {
+  max-width: 600px;
+  padding: 100px 20px;
+}
+
+.text h1 {
+  width: 450px;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+
+.text p {
+  width: 550px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(214, 212, 212);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.web-img {
+  max-width: 650px;
+  height: auto;
+}
+
+.web-img img {
+  width: 100%;
+  height: auto;
+  padding: 50px 30px;
+  margin: 0 auto;
+}
+
+/*  *********************************************  button  ************************************************** */
+button {
+  font-size: 1rem;
+  padding: 15px 55px;
+  background-color: #fff;
+  border-radius: 40px;
+  border: none;
+  color: blueviolet;
+  box-shadow: 3px 10px 15px rgba(51, 51, 51, 0.3);
+}
+button:hover {
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ************************************************ Social icon ************************************************** */
+
+.icon {
+  list-style: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  margin-right: 90px;
+}
+
+i {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding-top: 8px;
+  margin: 10px;
+  color: #fff;
+}
+/* **********************************************************  footer  ************************************************* */
+
+.attribution a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0px 7% 25px 7%;
+  font-family: "Poppins", sans-serif;
+  color: hsl(300, 69%, 71%);
+}
+
+/* ************************************************************** media query ****************************************** */
+@media (max-width: 1249px) {
+  .text p {
+    width: auto;
+    text-align: center;
+  }
+
+  .text h1 {
+    width: auto;
+    text-align: center;
+  }
+  .text {
+    max-width: 900px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    background: url(./images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
